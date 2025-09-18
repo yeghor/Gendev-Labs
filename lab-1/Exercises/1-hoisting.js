@@ -1,5 +1,8 @@
 'use strict';
 
+// Task from Exercies.en&ru.md
+//
+
 const fn = () => {
     console.log(a); // undefined 
     var a = 10;
@@ -8,4 +11,3 @@ const fn = () => {
 
 fn();
 
-module.exports = { fn };

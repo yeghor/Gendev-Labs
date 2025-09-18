@@ -8,4 +8,3 @@ const num = { n: 5 };
 inc(num);
 console.log(num);
 
-module.exports = { inc };

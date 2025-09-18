@@ -15,7 +15,7 @@ const countTypesInArray = (typesArr) => {
         let type = typeof(i);
 
         if(i === null) { type = "null"};
-        
+
         if(type in count) {
             count[type] += 1;
         } else {
@@ -28,5 +28,3 @@ const countTypesInArray = (typesArr) => {
 
 const arrayTypes = countTypesInArray(typesArr);
 console.log(arrayTypes);
-
-module.exports = { countTypesInArray };
