@@ -1,7 +1,6 @@
 'use strict';
 
 // Task from Exercies.en&ru.md
-//
 
 const fn = () => {
     console.log(a); // undefined 
