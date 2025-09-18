@@ -1,7 +1,11 @@
 'use strict';
 
-const inc = (obj) => {
-  console.log(obj);
+const inc = (num) => {
+    num.n += 1;
 };
+
+const num = { n: 5 };
+inc(num);
+console.log(num);
 
 module.exports = { inc };
